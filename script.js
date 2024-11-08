@@ -13,6 +13,6 @@ function windowClick(windowNumber) {
         default:
             url = "#";  // Default action or URL if needed
     }
-    window.open(url, "_blank");  // Opens link in a new tab
+    window.location.href = url;  // Opens link in a new tab
 }
 
