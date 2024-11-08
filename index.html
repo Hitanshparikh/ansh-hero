@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Building Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="building-container">
+        <img src="building-image.png" alt="Building" class="building-image">
+        <svg class="window-overlay" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+            <!-- Window 1 with label -->
+            <path d="m 627.40612,470.79117 13.72155,10.88261 24.13101,62.92987 361.49192,-123.0208 299.0352,308.02517 35.0136,-27.4431 -334.9951,-387.51555 z" class="window" onclick="windowClick(1)"/>
+            <text x="720" y="500" class="window-label" transform="rotate(-21, 670, 500)">Hitansh Parikh</text>
+            
+            <!-- Window 2 with label -->
+            <path d="m 627.40612,699.32598 13.2484,8.04367 30.7552,70.97354 355.81398,-71.91986 203.9307,139.10815 50.1546,-40.21834 -255.0316,-205.82328 z" class="window" onclick="windowClick(2)"/>
+            <text x="690" y="730" class="window-label" transform="rotate(-15, 670, 730)">Github</text>
+            
+            <!-- Window 3 with label -->
+            <path d="m 638.28873,932.59236 38.32571,70.97354 324.11256,-13.72155 133.9034,-7.57051 35.0136,-31.22836 -143.8397,-66.71513 z" class="window" onclick="windowClick(3)"/>
+            <text x="720" y="960" class="window-label" transform="rotate(-6, 680, 960)">Old-Website</text>
+        </svg>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
